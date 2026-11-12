@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{103E9AFC-A968-49B3-BD79-5D3336F49383}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{103E9AFC-A968-49B3-BD79-5D3336F49383}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Event_Foot_Step" ID="{0298A071-141E-4637-8A42-BA170781C0EE}" ShortID="32380143">
+					<ChildrenList>
+						<Event Name="E_Foot_Step" ID="{1D4F7441-1511-4EBE-A608-A504CE743EF9}">
+							<ChildrenList>
+								<Action Name="" ID="{53831DEB-9620-4409-90C7-8D2E8C6F408C}" ShortID="7561410">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch_Foot_Step" ID="{D70EC884-5B81-4E31-971F-250EF6144E9F}" WorkUnitID="{80D9FEAC-FC5A-4B8C-9197-24CECEC46CA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

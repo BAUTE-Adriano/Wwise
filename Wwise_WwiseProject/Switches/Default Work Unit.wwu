@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1F83E2A-DAD5-4BFE-A387-7E9760991042}" SchemaVersion="133">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{B1F83E2A-DAD5-4BFE-A387-7E9760991042}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Foot_Step" ID="{4592EB3A-2166-4637-914D-874B80021B82}" ShortID="1024332770">
+					<ChildrenList>
+						<SwitchGroup Name="Foot_Step_Switch_Group" ID="{87DC59DF-23F1-461F-8EB4-E9073EF4EDC8}">
+							<PropertyList>
+								<Property Name="UseGameParameter" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Switch Name="Metal" ID="{F7B9D5C7-5BF9-47C2-BC18-949307AABD04}"/>
+								<Switch Name="Concrete" ID="{BDA5FD32-C446-4CBB-BF97-88ED65C8BE63}"/>
+								<Switch Name="Wood" ID="{4E0575E2-51E1-438B-8254-51888A540ECA}"/>
+							</ChildrenList>
+							<SwitchOnRTPC>
+								<GameParameterRef Name="GP_Foot_Step" ID="{AF79A1D7-EF60-4481-821B-E0A0AAD8D025}"/>
+								<Curve Name="" ID="{6E35D6EC-6DE5-4C6C-BDEC-99203FAFB50B}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>1</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1</XPos>
+											<YPos>2</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>1.999</XPos>
+											<YPos>3</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>2</XPos>
+											<YPos>3</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</SwitchOnRTPC>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

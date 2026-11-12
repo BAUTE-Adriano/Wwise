@@ -1,0 +1,15 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4167131393	Foot_Step_Switch_Group			\Default Work Unit\Foot_Step\Foot_Step_Switch_Group	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Foot_Step_Switch_Group			
+	2058049674	Wood	Foot_Step_Switch_Group			
+	2473969246	Metal	Foot_Step_Switch_Group			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

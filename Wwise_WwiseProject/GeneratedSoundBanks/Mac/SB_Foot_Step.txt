@@ -1,0 +1,46 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4159984586	E_Foot_Step			\Default Work Unit\Event_Foot_Step\E_Foot_Step	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4167131393	Foot_Step_Switch_Group			\Default Work Unit\Foot_Step\Foot_Step_Switch_Group	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Foot_Step_Switch_Group			
+	2058049674	Wood	Foot_Step_Switch_Group			
+	2473969246	Metal	Foot_Step_Switch_Group			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1048884992	GP_Foot_Step			\Default Work Unit\GP_Foot_Step	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43711164	Foot_Step-004	.cache\8B\{8BF33AB3-588E-B6F5-BBC2-CFE3DD67D2A7}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-004		23080
+	52818182	Foot_Step-002	.cache\44\{4423C9DA-3091-739E-ACBF-9533149CC01A}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-002		23296
+	55579195	Foot_Step_Metal-004	.cache\5C\{5C4257CD-1D3C-D2BB-2E72-D08107DE5D88}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-004		54496
+	121787510	Foot_Step_Metal-001	.cache\31\{31877EC4-772A-5E01-4D64-91435BA3E473}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-001		47540
+	170079287	Foot_Step_Wood-007	.cache\CC\{CCA21F41-F396-7FD0-F436-401FB22CBFEC}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-007		47540
+	219328678	Foot_Step-003	.cache\34\{34CBC580-190D-7457-641F-BB1365C1D37A}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-003		28192
+	241820350	Foot_Step_Wood-010	.cache\50\{50D30E8B-3F99-853B-E0E5-C3798D81289E}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-010		47540
+	247291560	Foot_Step_Metal-010	.cache\38\{389D715F-2D59-A872-E402-52835A5EBE3C}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-010		67780
+	408862713	Foot_Step_Wood-008	.cache\3A\{3A2D8110-9994-0825-8A0C-D56CE3989B05}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-008		46904
+	469504154	Foot_Step_Metal-003	.cache\9A\{9A37AF45-1CC6-34D7-7CD3-5D7E7D370A88}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-003		57028
+	472240073	Foot_Step-005	.cache\34\{342F7355-37C7-323C-926F-FB545521D9C3}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-005		21952
+	473854829	Foot_Step_Wood-001	.cache\8E\{8E3BEE9D-4D7D-6D07-8737-EC167D19F1AC}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-001		46272
+	479767851	Foot_Step-007	.cache\DF\{DF422483-4DF5-D597-4517-69DCF8CE1213}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-007		23668
+	502356209	Foot_Step_Wood-006	.cache\B2\{B2BDD1A8-467E-6F35-5962-E6C507FE14B1}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-006		58924
+	539602149	Foot_Step_Wood-004	.cache\B8\{B82F817C-86BB-36F8-6476-2539BE1AC33A}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-004		47328
+	562568109	Foot_Step-010	.cache\86\{86B96C0B-4EF2-EDD5-73F3-2835B1BABD59}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-010		22948
+	628599030	Foot_Step_Wood-002	.cache\B4\{B4AF78E3-7051-7E5A-D4FD-A0929D3F56F5}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-002		39948
+	640447866	Foot_Step_Wood-003	.cache\D8\{D8CAC0C6-7324-B8F9-43A4-4BA7B0CC9A86}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-003		46272
+	684828383	Foot_Step_Wood-009	.cache\46\{46F793BB-CEC0-D39F-9AF3-07E2E957AEFA}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-009		57028
+	686161192	Foot_Step_Metal-008	.cache\B0\{B094F23D-8BAD-7106-0D76-8BDA9E92F546}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-008		46904
+	698757842	Foot_Step_Wood-005	.cache\4A\{4A0CEAF3-6F65-22AA-C9DD-99CB929E27FB}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-005		52304
+	736433531	Foot_Step-006	.cache\E6\{E6620E1D-1A6D-BD52-707C-6220219B4E30}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-006		21380
+	775313435	Foot_Step_Metal-007	.cache\3B\{3B23BC3C-63F9-8D11-4390-1A81A83CFEDB}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-007		43744
+	792325383	Foot_Step_Metal-002	.cache\8A\{8A0E29D2-29D1-A87B-E71F-D5B32B978249}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-002		72840
+	806754551	Foot_Step-008	.cache\46\{46CF3CC5-F747-ED28-3140-339A551D2FC5}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-008		20840
+	829500057	Foot_Step-001	.cache\D9\{D9432F51-DB14-EF48-7F43-2B972B349A44}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-001		30932
+	849089208	Foot_Step_Metal-009	.cache\F5\{F5BAD9D9-DC41-8DD8-24B7-15EAC9FC4542}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-009		41844
+	946636141	Foot_Step_Metal-005	.cache\5D\{5D6884AF-05FD-9BC4-1C11-783E0F11084D}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-005		58292
+	968510039	Foot_Step-009	.cache\F3\{F3155B59-55AD-9791-E311-91411D7B03AD}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-009		24332
+	1035931272	Foot_Step_Metal-006	.cache\2A\{2A25DA06-47A8-C47F-974C-6B3EC1BDBDCD}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-006		45640
+

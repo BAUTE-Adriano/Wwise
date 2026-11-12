@@ -18,6 +18,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Menu" ID="{F7A21E13-D395-47CB-A986-F9DEAFB9A3BA}" ShortID="641001021">
+					<ChildrenList>
+						<Event Name="E_Menu" ID="{3BFBD03C-4E9C-4EBA-8034-D2E9EB0BEC0E}">
+							<ChildrenList>
+								<Action Name="" ID="{22D73184-D393-43B5-9F7A-C4E8CB4D5443}" ShortID="880908892">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!" ID="{B469559A-83D1-43D0-8AAF-B1670D7F5CEB}" WorkUnitID="{80D9FEAC-FC5A-4B8C-9197-24CECEC46CA7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

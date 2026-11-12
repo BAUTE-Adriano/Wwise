@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="SB_Foot_Step" ID="{C41ACBFC-C928-4E18-8E21-C199CDD2F4E9}">
 					<ObjectInclusionList>
+						<ObjectRef Name="E_Menu" ID="{3BFBD03C-4E9C-4EBA-8034-D2E9EB0BEC0E}" WorkUnitID="{103E9AFC-A968-49B3-BD79-5D3336F49383}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="E_Foot_Step" ID="{1D4F7441-1511-4EBE-A608-A504CE743EF9}" WorkUnitID="{103E9AFC-A968-49B3-BD79-5D3336F49383}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

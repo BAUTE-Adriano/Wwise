@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C41ACBFC-C928-4E18-8E21-C199CDD2F4E9}",
     "Language": "SFX",
-    "Hash": "{A7FDD863-10BD-7708-D88D-978FA4AAED66}",
+    "Hash": "{79BC2B0E-59AD-27E3-8F39-D43CD5DB2BE9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Foot_Step",
     "ShortName": "SB_Foot_Step",
     "Path": "SB_Foot_Step.bnk",
@@ -78,6 +78,14 @@
       "Location": "Memory",
       "ShortName": "Foot_Step_Metal-010.wav",
       "CachePath": "38/{389D715F-2D59-A872-E402-52835A5EBE3C}.wem"
+     },
+     {
+      "Id": "387038020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!.wav",
+      "CachePath": "E2/{E21D68D5-8A37-62F4-2CD4-7E4AFDA2257F}.wem"
      },
      {
       "Id": "408862713",
@@ -388,6 +396,29 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "927656636",
+      "Name": "E_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Menu\\E_Menu",
+      "GUID": "{3BFBD03C-4E9C-4EBA-8034-D2E9EB0BEC0E}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "145.28726",
+      "DurationMax": "145.28726",
+      "MediaRefs": [
+       {
+        "Id": "387038020"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "425396316",
+        "Name": "AUX_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AUX_Reverb",
+        "GUID": "{580644A8-8B06-4DB6-B276-60CAEC1E6292}"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -431,6 +462,6 @@
     ]
    }
   ],
-  "FileHash": "{E08E1953-73C3-BA6A-C326-6C1618DF7996}"
+  "FileHash": "{34A61877-8204-693C-2C59-F536BCD7B6AB}"
  }
 }

@@ -6,8 +6,22 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	Foot_Step_Switch_Group			
 	2473969246	Metal	Foot_Step_Switch_Group			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	4172264498	State_Group_Menu			\Default Work Unit\Menu_State\State_Group_Menu	
+
+State	ID	Name	State Group			Notes
+	748895195	None	State_Group_Menu			
+	984691642	InGame	State_Group_Menu			
+	2607556080	Menu	State_Group_Menu			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	425396316	AUX_Reverb			\Default Work Unit\Main Audio Bus\AUX_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

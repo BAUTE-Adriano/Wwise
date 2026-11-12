@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{82D2B6D4-E6C2-6A9E-9680-B4E8407A663D}",
+    "Hash": "{D025421E-5155-D6AE-72D8-181A2954FDA4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -42,12 +52,55 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "425396316",
+      "Name": "AUX_Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AUX_Reverb",
+      "GUID": "{580644A8-8B06-4DB6-B276-60CAEC1E6292}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
+     }
+    ],
     "GameParameters": [
      {
       "Id": "1048884992",
       "Name": "GP_Foot_Step",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Foot_Step",
       "GUID": "{AF79A1D7-EF60-4481-821B-E0A0AAD8D025}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4172264498",
+      "Name": "State_Group_Menu",
+      "ObjectPath": "\\States\\Default Work Unit\\Menu_State\\State_Group_Menu",
+      "GUID": "{2A8B33AB-6F5C-4759-84D2-360C74752CEF}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_State\\State_Group_Menu\\None",
+        "GUID": "{90C4432C-15A1-48F3-87E1-08090E22D0CC}"
+       },
+       {
+        "Id": "984691642",
+        "Name": "InGame",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_State\\State_Group_Menu\\InGame",
+        "GUID": "{58D88862-4C23-41AD-B5A0-9A85BF8A38B8}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\Menu_State\\State_Group_Menu\\Menu",
+        "GUID": "{2A465CE7-3584-4626-9B12-9EFCB14442D2}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -83,6 +136,6 @@
     ]
    }
   ],
-  "FileHash": "{6CA1F71A-1CA9-DCC4-4B94-D186C69F36A3}"
+  "FileHash": "{752F8A7D-E3C9-293F-ED57-093198F83D4E}"
  }
 }

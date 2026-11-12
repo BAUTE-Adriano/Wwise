@@ -782,6 +782,74 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Menu" ID="{C7DE1D2B-731E-4672-BF37-BCC1093535D5}" ShortID="612464850">
+							<ChildrenList>
+								<Sound Name="Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!" ID="{B469559A-83D1-43D0-8AAF-B1670D7F5CEB}" ShortID="478433926">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_Music" ID="{E379CC2D-8A46-4E59-A2FB-0BE11E5DB771}" WorkUnitID="{198867B5-E941-48E8-874F-14321BAA5223}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E9C0D4D-273A-4850-9C5B-DEF8D1FFC931}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{749F511C-3C38-402F-8688-80DECE044826}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="AUX_Reverb" ID="{580644A8-8B06-4DB6-B276-60CAEC1E6292}" WorkUnitID="{749F511C-3C38-402F-8688-80DECE044826}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!" ID="{16A21EF2-E792-42A9-BBD1-0F8C137073FE}">
+											<Language>SFX</Language>
+											<AudioFile>Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="387038020"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{BCBB15E9-930E-4E56-A126-41D9A17AD56E}"/>
+									</PositioningInfo>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="State_Group_Menu" ID="{2A8B33AB-6F5C-4759-84D2-360C74752CEF}"/>
+												<StateGroupInfo Name="" ID="{4A0EE327-D2A5-4643-A257-6B0195A41564}" ShortID="814232564"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="InGame" ID="{58D88862-4C23-41AD-B5A0-9A85BF8A38B8}"/>
+												<CustomState Name="" ID="{49605B6E-375A-450E-987B-FAB08D8ABF3A}" ShortID="635923247"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Menu" ID="{2A465CE7-3584-4626-9B12-9EFCB14442D2}"/>
+												<CustomState Name="" ID="{94BA5623-F55A-4F94-9AEB-CE8096126C4E}" ShortID="143254189">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="55"/>
+														<Property Name="Pitch" Type="int32" Value="-250"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{90C4432C-15A1-48F3-87E1-08090E22D0CC}"/>
+												<CustomState Name="" ID="{73866B13-C491-43AB-9137-C19BF52E5043}" ShortID="890834270"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!" ID="{16A21EF2-E792-42A9-BBD1-0F8C137073FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</PropertyContainer>
 			</ChildrenList>

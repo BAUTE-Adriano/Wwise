@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	927656636	E_Menu			\Default Work Unit\Menu\E_Menu	
 	4159984586	E_Foot_Step			\Default Work Unit\Event_Foot_Step\E_Foot_Step	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -8,6 +9,14 @@ Switch	ID	Name	Switch Group			Notes
 	841620460	Concrete	Foot_Step_Switch_Group			
 	2058049674	Wood	Foot_Step_Switch_Group			
 	2473969246	Metal	Foot_Step_Switch_Group			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4172264498	State_Group_Menu			\Default Work Unit\Menu_State\State_Group_Menu	
+
+State	ID	Name	State Group			Notes
+	748895195	None	State_Group_Menu			
+	984691642	InGame	State_Group_Menu			
+	2607556080	Menu	State_Group_Menu			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1048884992	GP_Foot_Step			\Default Work Unit\GP_Foot_Step	
@@ -21,6 +30,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	219328678	Foot_Step-003	.cache\34\{34CBC580-190D-7457-641F-BB1365C1D37A}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-003		28192
 	241820350	Foot_Step_Wood-010	.cache\50\{50D30E8B-3F99-853B-E0E5-C3798D81289E}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-010		47540
 	247291560	Foot_Step_Metal-010	.cache\38\{389D715F-2D59-A872-E402-52835A5EBE3C}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-010		67780
+	387038020	Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!	.cache\E2\{E21D68D5-8A37-62F4-2CD4-7E4AFDA2257F}.wem		\Containers\Default Work Unit\Master_Mixe\Menu\Code Geass Orchestra Performance  Cold Nobility  All Hail Britannia!		25628768
 	408862713	Foot_Step_Wood-008	.cache\3A\{3A2D8110-9994-0825-8A0C-D56CE3989B05}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Wood\Foot_Step_Wood-008		46904
 	469504154	Foot_Step_Metal-003	.cache\9A\{9A37AF45-1CC6-34D7-7CD3-5D7E7D370A88}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Metal\Foot_Step_Metal-003		57028
 	472240073	Foot_Step-005	.cache\34\{342F7355-37C7-323C-926F-FB545521D9C3}.wem		\Containers\Default Work Unit\Master_Mixe\Footstep\Switch_Foot_Step\RND_Foot_Step_Concret\Foot_Step-005		21952
